@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap project-4 | E-commerce Project</title>
+    <title>Hurices-plateform — Produits</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- fontawesome css -->
     <link rel="stylesheet" href="css/all.min.css">
@@ -31,22 +31,22 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item mx-2 ">
-              <a href="index.html" class="nav-link">Home</a>
+              <a href="index.html" class="nav-link">Accueil</a>
             </li>
             <li class="nav-item mx-2 nav-active">
-              <a href="products.html" class="nav-link">Products</a>
+              <a href="products.html" class="nav-link">Produits</a>
             </li>
             <li class="nav-item mx-2">
-              <a href="singleproduct.html" class="nav-link">Single Product</a>
+              <a href="singleproduct.html" class="nav-link">Produit</a>
             </li>
             <li class="nav-item mx-2">
-              <a href="store.html" class="nav-link">Store</a>
+              <a href="store.html" class="nav-link">Boutique</a>
             </li>
           </ul>
         </div>
         <div class="navbar-icons d-none d-lg-flex">
           <!-- single icon -->
-          <div class="navbar-icon mx-2"><i class="fas fa-search"></i></div>
+          <div class="navbar-icon mx-2" data-toggle="modal" data-target="#searchModal" role="button" aria-label="Ouvrir la recherche"><i class="fas fa-search"></i></div>
           <!-- end of single icon -->
           <!-- single icon -->
           <a href="store.html" class="navbar-icon mx-2 navbar-cart-icon">
@@ -63,7 +63,7 @@
                 comfy sloth
             </h1>
             <h1 class="text-capitalize display-4 font-weight-bold">
-                our products
+              Nos produits
             </h1>
           </div>
       </div>
@@ -79,35 +79,35 @@
             <!-- products categories -->
             <div class="products-categories-title my-4">
               <h6 class="text-uppercase">
-                shop by categories
+                Trier par catégories
               </h6>
               <div class="products-categories-underline"></div>
             </div>
             <!-- end of title -->
             <!-- single link -->
             <a href="#" class="products-category-link d-block">
-              <p class="mb-0">
-                kitchen
+                <p class="mb-0">
+                Cuisine
               </p>
             </a>
             <a href="#" class="products-category-link d-block">
               <p class="mb-0">
-                bath room
+                Salle de bain
               </p>
             </a>
             <a href="#" class="products-category-link d-block">
               <p class="mb-0">
-                living room
+                Salon
               </p>
             </a>
             <a href="#" class="products-category-link d-block">
               <p class="mb-0">
-                patio
+                Terrasse
               </p>
             </a>
             <a href="#" class="products-category-link d-block">
               <p class="mb-0">
-                bedroom
+                Chambre
               </p>
             </a>
             <!-- end of single link -->
@@ -120,7 +120,7 @@
             <!-- end of title -->
             <form action="">
               <div class="form-group">
-                <label for="price-range">Range : $0 - $1000</label>
+                <label for="price-range">Plage : $0 - $1000</label>
                 <input type="range" class="form-control-range" id="price-range">
               </div>
               <div class="input-group">
@@ -129,12 +129,12 @@
                     <i class="fas fa-search"></i>
                   </span>
                 </div>
-                <input type="text" class="form-control text-capitalize" placeholder="search by name">
+                <input type="text" class="form-control text-capitalize" placeholder="Recherche par nom">
               </div>
             </form>
             <div class="products-categories-title my-4">
               <h6 class="text-uppercase">
-                shop by color
+                Trier par couleur
               </h6>
               <div class="products-categories-underline"></div>
             </div>
@@ -143,7 +143,7 @@
               <p class="text-capitalize mb-0">
                 <span class="d-inline-block products-color products-color-black mr-2">
                 </span>
-                black (5)
+                Noir (5)
               </p>
             </a>
             <!-- end of single color -->
@@ -152,7 +152,7 @@
               <p class="text-capitalize mb-0">
                 <span class="d-inline-block products-color products-color-red mr-2">
                 </span>
-                red (6)
+                Rouge (6)
               </p>
             </a>
             <!-- end of single color -->
@@ -161,7 +161,7 @@
               <p class="text-capitalize mb-0">
                 <span class="d-inline-block products-color products-color-blue mr-2">
                 </span>
-                blue (10)
+                Bleu (10)
               </p>
             </a>
             <!-- end of single color -->
@@ -170,7 +170,7 @@
               <p class="text-capitalize mb-0">
                 <span class="d-inline-block products-color products-color-yellow mr-2">
                 </span>
-                yellow (3)
+                Jaune (3)
               </p>
             </a>
             <!-- end of single color -->
@@ -179,7 +179,7 @@
               <p class="text-capitalize mb-0">
                 <span class="d-inline-block products-color products-color-green mr-2">
                 </span>
-                green (7)
+                Vert (7)
               </p>
             </a>
             <!-- end of single color -->
@@ -197,10 +197,10 @@
               <span class="featured-search-icon" data-toggle="modal" data-target="#productModal">
                 <i class="fas fa-search"></i>
               </span>
-              <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+              <a href="#" class="featured-store-link text-capitalize">Ajouter au panier</a>
             </div>
             <h6 class="text-capitalize text-center my-2">
-              special product
+              Produit spécial
             </h6>
             <h6 class="text-center">
               <span class="text-muted old-price mx-2">$200</span>
@@ -215,10 +215,10 @@
               <span class="featured-search-icon" data-toggle="modal" data-target="#productModal">
                 <i class="fas fa-search"></i>
               </span>
-              <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+              <a href="#" class="featured-store-link text-capitalize">Ajouter au panier</a>
             </div>
             <h6 class="text-capitalize text-center my-2">
-              special product
+              Produit spécial
             </h6>
             <h6 class="text-center">
               <span class="text-muted old-price mx-2">$200</span>
@@ -233,10 +233,10 @@
               <span class="featured-search-icon" data-toggle="modal" data-target="#productModal">
                 <i class="fas fa-search"></i>
               </span>
-              <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+              <a href="#" class="featured-store-link text-capitalize">Ajouter au panier</a>
             </div>
             <h6 class="text-capitalize text-center my-2">
-              special product
+              Produit spécial
             </h6>
             <h6 class="text-center">
               <span class="text-muted old-price mx-2">$200</span>
@@ -251,10 +251,10 @@
               <span class="featured-search-icon" data-toggle="modal" data-target="#productModal">
                 <i class="fas fa-search"></i>
               </span>
-              <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+              <a href="#" class="featured-store-link text-capitalize">Ajouter au panier</a>
             </div>
             <h6 class="text-capitalize text-center my-2">
-              special product
+              Produit spécial
             </h6>
             <h6 class="text-center">
               <span class="text-muted old-price mx-2">$200</span>
@@ -269,10 +269,10 @@
               <span class="featured-search-icon" data-toggle="modal" data-target="#productModal">
                 <i class="fas fa-search"></i>
               </span>
-              <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+              <a href="#" class="featured-store-link text-capitalize">Ajouter au panier</a>
             </div>
             <h6 class="text-capitalize text-center my-2">
-              special product
+              Produit spécial
             </h6>
             <h6 class="text-center">
               <span class="text-muted old-price mx-2">$200</span>
@@ -311,11 +311,11 @@
       <div class="container">
         <div class="row my-3">
           <div class="col-10 mx-auto text-center">
-            <h1 class="text-uppercase">
-              featured products
+              <h1 class="text-uppercase">
+              Produits en vedette
             </h1>
             <p class="text-muted">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, deleniti?
+              Découvrez nos produits phares, choisis pour leur qualité.
             </p>
           </div>
         </div>
@@ -532,18 +532,18 @@
               newsletter
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti blanditiis similique eum, aut culpa maiores cupiditate alias exercitationem error nesciunt.
+              Inscrivez-vous à notre newsletter pour recevoir les meilleures offres et nouveautés.
             </p>
             <form action="">
               <div class="input-group mt-5 mb-4">
-                <input type="text" class="text-capitalize form-control" placeholder="enter your email">
+                <input type="text" class="text-capitalize form-control" placeholder="Entrez votre e-mail">
                 <div class="input-group-append">
                 <div class="input-group-text form-icon">
                   <i class="fas fa-envelope"></i>
                 </div>
                 </div>
               </div>
-              <button type="submit" class=" btn btn-yellow">subscribe</button>
+              <button type="submit" class=" btn btn-yellow">S'abonner</button>
             </form>
           </div>
         </div>
@@ -560,11 +560,11 @@
               <i class="fas fa-truck"></i>
             </div>
             <div class="skill-text">
-              <h3 class="text-uppercase text-white">
-                free shipping
+                <h3 class="text-uppercase text-white">
+                Livraison gratuite
               </h3>
               <p class="text-capitalize text-muted">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, obcaecati!
+                Livraison rapide et sécurisée sur toutes les commandes.
               </p>
             </div>
           </div>
@@ -573,11 +573,11 @@
               <i class="fas fa-comment-dollar"></i>
             </div>
             <div class="skill-text">
-              <h3 class="text-uppercase text-white">
-                price promise
+                <h3 class="text-uppercase text-white">
+                Meilleur prix garanti
               </h3>
               <p class="text-capitalize text-muted">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, obcaecati!
+                Nous garantissons les meilleurs prix et des offres compétitives.
               </p>
             </div>
           </div>
@@ -586,11 +586,11 @@
               <i class="fas fa-award"></i>
             </div>
             <div class="skill-text">
-              <h3 class="text-uppercase text-white">
-                lifetime warranty
+                <h3 class="text-uppercase text-white">
+                Garantie à vie
               </h3>
               <p class="text-capitalize text-muted">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, obcaecati!
+                Bénéficiez d'une garantie à vie et d'un service après-vente réactif.
               </p>
             </div>
           </div>
@@ -637,7 +637,7 @@
             </div>
             <!-- footer icons -->
             <p class="text-muted text-capitalize w-75 mx-auto text-center">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore illum illo exercitationem ex porro consequuntur quae mollitia qui accusamus! Molestiae.
+              Des produits durables et élégants, pensés pour votre confort.
             </p>
             <div class="footer-contact d-flex justify-content-around mt-5">
               <!-- single contact -->
@@ -645,7 +645,7 @@
                 <span class="contact-icon mr-2">
                   <i class="fas fa-map"></i>
                 </span>
-                123 Main Street, Los Angeles
+                Antananarivo, Madagascar
               </div>
               <!-- end of single contact -->
               <!-- single contact -->
@@ -653,15 +653,15 @@
                 <span class="contact-icon mr-2">
                   <i class="fas fa-phone"></i>
                 </span>
-                Phone : + (310) 111 2222
+                Téléphone : +261 334604488
               </div>
               <!-- end of single contact -->
               <!-- single contact -->
-              <div class="text-capitalize">
+                <div class="text-capitalize">
                 <span class="contact-icon mr-2">
                   <i class="fas fa-envelope"></i>
                 </span>
-                Email : Eamil@Email.Com
+                Email : contact@hurices-plateform.com
               </div>
               <!-- end of single contact -->
             </div>
@@ -676,7 +676,7 @@
         <div class="modal-content">
           <!-- modal header -->
           <div class="modal-header">
-            <h5 class="modal-title text-capitalize">product info</h5>
+            <h5 class="modal-title text-capitalize">Informations produit</h5>
             <button type="button" class="close" data-dismiss="modal">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -694,14 +694,13 @@
                   <span class="rating-icon"><i class="fas fa-star"></i></span>
                   <span class="rating-icon"><i class="fas fa-star"></i></span>
                   <span class="rating-icon"><i class="far fa-star"></i></span>
-                  <span class="text-capitalize">(25 customer reviews)</span>
+                  <span class="text-capitalize">(25 avis clients)</span>
                 </div>
                 <!-- end of ratings -->
                 <h2 class="text-uppercase my-2">premium office armchair</h2>
                 <h2>$10.00 - $200.00</h2>
                 <p class="lead text-muted">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-                  porro.
+                  Chaise de bureau premium — confort optimal et finition soignée.
                 </p>
                 <!-- colors -->
                 <h5 class="text-uppercase">
@@ -724,20 +723,44 @@
                     <span class="btn btn-black mx-1">4</span>
                     <span class="btn btn-black mx-1">+</span>
                   </div>
-                  <button class="btn btn-black my-2 mx-2">wishlist</button>
-                  <button class="btn btn-yellow my-2 mx-2">add to cart</button>
+                  <button class="btn btn-black my-2 mx-2">Liste de souhaits</button>
+                  <button class="btn btn-yellow my-2 mx-2">Ajouter au panier</button>
                 </div>
               </div>
             </div>
           </div>
           <!-- end modal body -->
           <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">close</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
           </div>
         </div>
       </div>
     </div>
     <!-- end of modal -->
+    <!-- Search modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Recherche</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="products.html" method="get">
+              <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Recherche de produit..." aria-label="Recherche">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="submit">Rechercher</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- jQuery -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <!-- Bootstrap js -->
